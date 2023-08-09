@@ -10,6 +10,7 @@ html {
 }
 
 html,
+<body style="background-color:#272121;">
 body {
 	margin: 0;
 	padding: 0;
@@ -675,9 +676,63 @@ blockquote {
 	
 </style></head><body><article id="6cafb51f-90e0-4159-b3d9-bf0bf5e3fb5b" class="page serif"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1661956602926-db6b25f75947?ixlib=rb-4.0.3&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="The%20Weekly%20Economic%20Compendium%20(TWEC)%206cafb51f90e04159b3d9bf0bf5e3fb5b/IMG_9060.jpg"/></div><h1 class="page-title">The Weekly Economic Compendium (TWEC)</h1><p class="page-description"></p></header><div class="page-body"><p id="0f4df158-f24f-454c-aa37-2b2bab433344" class="">
 </p><hr id="e6039b22-0455-4d81-b388-801db7c67343"/><div id="61db0557-793b-4fbf-af42-34f890305add" class="column-list"><div id="23e0a575-a333-4f7c-9933-06c16def0b17" style="width:68.75%" class="column"><p id="6210d837-6ae2-4142-9ff9-3868ec3855a6" class="">Big things take time, don’t they?!</p><p id="56070073-c933-4cc4-a739-f8abba8439dd" class="">This section is under construction and will be live from Sep 1, 2023 🚧</p><p id="75cff044-a3d9-445f-8d60-033703383eaf" class="">
-</p></div><div id="8743db21-3bd5-4fcf-bfcb-2e5a8c1fe1f1" style="width:31.25%" class="column"><h2 id="94c2606d-390e-4dbf-857b-42989ccfff9e" class="">TWEC ENGAGE</h2><h3 id="5c67da33-b87b-44de-b3f4-170f67c8407d" class="">Section B : Quizzy Peasy Weekly</h3><p id="1be5267a-4252-4f5d-8af1-f5e87b2249d0" class="">
-</p><p id="5a6a33c5-c5e8-4367-89ce-494df4df5e0f" class="">
-</p><p id="e3f2dea4-d3ee-4681-9fbc-4da9b2c5a945" class="">
+</p></div><div id="8743db21-3bd5-4fcf-bfcb-2e5a8c1fe1f1" style="width:31.25%" class="column"><h2 id="94c2606d-390e-4dbf-857b-42989ccfff9e" class="">TWEC ENGAGE</h2><h3 id="5c67da33-b87b-44de-b3f4-170f67c8407d" class="">Section B : Quizzy Peasy Weekly</h3>
+
+
+    <style>
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+
+        .incorrect {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+
+
+    <b><font face="Helvetica Neue">Question: What is the basic economic principle that states "there is no such thing as a free lunch"?</font></b>
+<br />
+    <form id="mcqForm">
+        <label>
+            <input type="radio" name="answer" value="a" /> a) Opportunity Cost
+        </label><br />
+        <label>
+            <input type="radio" name="answer" value="b" /> b) Inflation
+        </label><br />
+        <label>
+            <input type="radio" name="answer" value="c" /> c) Demand and Supply
+        </label><br />
+        <label>
+            <input type="radio" name="answer" value="d" /> d) Fiscal Policy
+        </label><br />
+<br />
+        <button type="button" onclick="submitAnswer()">Submit</button>
+    </form>
+    
+    <script>
+        function submitAnswer() {
+            const correctAnswer = "a";
+            const selectedAnswer = document.querySelector('input[name="answer"]:checked');
+
+            if (selectedAnswer) {
+                if (selectedAnswer.value === correctAnswer) {
+                    selectedAnswer.parentElement.classList.add("correct");
+                } else {
+                    selectedAnswer.parentElement.classList.add("incorrect");
+                    const showCorrectAns = confirm("Incorrect! Do you want to see the correct answer?");
+                    if (showCorrectAns) {
+                        document.querySelector(`input[value="${correctAnswer}"]`).parentElement.classList.add("correct");
+                    }
+                }
+                document.querySelectorAll('input[name="answer"]').forEach(input => {
+                    input.disabled = true;
+                });
+            }
+        }
+    </script>
+
 </p><h3 id="069c1407-d9cc-4a30-9f86-545a2c1a35f6" class="">Section C : “Seriously?!”</h3><p id="12369f62-9dd4-4cb1-ad20-60a93c7896ac" class="">Thomas Malthus, best known for his work on population growth and his theory, presented in &quot;An Essay on the Principle of Population&quot;, surprisingly harboured an eccentric fear of ice cream! Despite his intellectual prowess, he couldn&#x27;t bring himself to enjoy the frozen treat!🍦</p><p id="6fff7f00-3362-4713-ae34-c84c631951bd" class="">
 </p><h3 id="9aba10ce-ddca-4d88-a083-3922c5e2dcda" class="">Section D : Quickly Learn About</h3><p id="3ea90bbf-19b1-421e-a397-3ecf47c63eb5" class=""><strong>Inflation, Deflation, Disinflation and Stagflation:</strong></p><p id="e066b1fd-88a9-44d2-86d5-da803cbb290a" class="">&#x27;Inflation&#x27; is the sustained increase in general price levels, reducing purchasing power, whereas, &#x27;Deflation&#x27; is just the opposite, with prices decreasing, increasing purchasing power. &#x27;Disinflation&#x27; is a slowdown in the rate of price increase. &#x27;Stagflation&#x27; is a rare combo of stagnant growth, high unemployment, and rising prices.</p></div></div><p id="68b65a30-f8eb-4847-a7bf-5fce89945d71" class="">
 </p></div></article></body></html>
